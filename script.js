@@ -11,8 +11,8 @@ var uiParams = [
 ];
 
 function main(args) {
-  var s = args.size * MM
-  var box = new Box(-s,s,-s,s,-s,s);
+  var s = args.size * MM;
+  var box = new Box(s,s,s);
   
   return new Scene(box, new Bounds(-s,s,-s,s,-s,s));
 }
